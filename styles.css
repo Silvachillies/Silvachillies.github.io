@@ -1,0 +1,147 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 4px;
+    max-width: 500px;
+  }
+}
+
+header {
+  text-align: center;
+  border-radius: 10px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+  font-weight: bold;
+}
+
+.navbar-Btn {
+  background: none;
+  border: none;
+  transition-property: scale;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  border-radius: 8px;
+  min-height: 25px;
+}
+.navbar-Btn:hover {
+  background-color: #2563eb;
+  scale: 1.5;
+  margin: 5px;
+}
+
+.content {
+  background: none;
+  margin: none;
+}
+.homepage {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(25552.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(237, 235, 231);
+}
+.hpcontent {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+
+  align-items: center;
+}
+.imageContainer {
+  display: flex;
+  background-color: azure;
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 9px;
+  padding: 3.5rem;
+  color: black;
+}
+.imageContainer:hover {
+  background-color: hsl(0, 0%, 78%);
+}
+.writeUp {
+  margin-top: 10.5rem;
+  height: 7.5rem;
+  max-width: 50vw;
+  background-color: azure;
+  color: black;
+  border-radius: "10px";
+}
+.aboutPage {
+  transition: 2s;
+  background-color: #061b55;
+  background-size: contain;
+  border-radius: 9px;
+  color: azure;
+  padding: 3rem;
+  min-height: 100vh;
+}
+/* /* .aboutDescription {
+  font-weight: bolder;
+  font-size: 2em;
+} */
+
+.aboutItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7.5px;
+  padding: 3.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.aboutItem:hover {
+  background-color: hsl(0, 0%, 78%);
+}
+.projectsPage {
+  padding: 20px;
+  height: 100vh;
+  border-radius: 9px;
+  background-color: #061b55;
+  color: rgb(237, 235, 231);
+}
+.portfolios {
+  align-items: center;
+  border: 1px solid;
+  max-width: 100vw;
+  max-height: min-content;
+  padding: 1.5rem;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: silver;
+  text-align: center;
+}
+.projectImages {
+  position: relative;
+  left: 35rem;
+  transform: translateX(80pt);
+  border-radius: 6px;
+  max-height: 300px;
+  max-width: 100px;
+}
+.live {
+  color: azure;
+  transform: scale(1.2);
+}
+.live:hover {
+  transform: scale(1.5);
+}
